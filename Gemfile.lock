@@ -1,24 +1,25 @@
+GIT
+  remote: https://github.com/bentheax/rspec-core.git
+  revision: 1a08928ad98d1158d6a6f61108490addd71dacc3
+  branch: issue-1961-line-filter-regression
+  specs:
+    rspec-core (3.3.0.pre)
+      rspec-support (= 3.3.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-support.git
+  revision: 065494b64575d8533f411a2f49b74b9e8bfa52b7
+  branch: master
+  specs:
+    rspec-support (3.3.0.pre)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    diff-lcs (1.2.5)
-    rspec (3.2.0)
-      rspec-core (~> 3.2.0)
-      rspec-expectations (~> 3.2.0)
-      rspec-mocks (~> 3.2.0)
-    rspec-core (3.2.2)
-      rspec-support (~> 3.2.0)
-    rspec-expectations (3.2.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-mocks (3.2.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-support (3.2.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rspec
-  rspec-core (= 3.2.2)
+  rspec-core!
+  rspec-support!
